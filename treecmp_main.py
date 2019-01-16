@@ -1,7 +1,7 @@
 """
 treecmp main program
 
-	python3   treecmp.py   tree-1   tree-2
+	python3   treecmp_main.py   tree-1   tree-2
 
 """
 import os
