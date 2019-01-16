@@ -5,6 +5,8 @@ Sample invocation:
 
      python3   treecmp_main.py   $HOME/baseline   /mnt/my_usb_disk/another_copy_of_baseline
 
+Yes, it will run with Python2 as well as Python3.
+
 A perfect match will produce output like this:
 
 ```
