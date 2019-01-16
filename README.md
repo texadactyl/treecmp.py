@@ -18,7 +18,7 @@ A perfect match will produce output like this:
 2019-01-16 17:36:55  treecmp_main: End
 ```
 
-If anything is inconsistent, then the output is more verbose.  For example, if directory aa has one more file than bb, then output like what follows will appear:
+If anything is inconsistent, then the output is more verbose.  For example, if directory aa has one more file (yy_extraneous.png) than bb, then output like what follows will appear:
 
 ```2019-01-16 17:39:15  treecmp_main: Begin
 2019-01-16 17:39:15  treecmp_walker: *Not found* in comparand: /home/elkins/log/bb/yy_extraneous.png
