@@ -21,7 +21,7 @@ A perfect match will produce output like this:
 If anything is inconsistent, then the output is more verbose.  For example, if directory aa has one more file than bb, then output like what follows will appear:
 
 ```2019-01-16 17:39:15  treecmp_main: Begin
-2019-01-16 17:39:15  treecmp_walker: *Not found* comparand: /home/elkins/log/bb/yy_extraneous.png
+2019-01-16 17:39:15  treecmp_walker: *Not found* in comparand: /home/elkins/log/bb/yy_extraneous.png
 2019-01-16 17:39:15  reporter: Baseline: /home/elkins/log/aa, Comparand: /home/elkins/log/bb
 2019-01-16 17:39:15  reporter: Total of 0 subdirectories and 11 files
 2019-01-16 17:39:15  reporter: Subdirectories missing in comparand: 0
