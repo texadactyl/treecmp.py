@@ -82,10 +82,10 @@ def traverse(arg_acc_stats, arg_baseline_tree, arg_comparand_tree):
             ### Else flag a missing comparand file
             if os.path.isfile(path_comparand):
                 if not cmp(path_baseline, path_comparand, shallow=SHALLOW):
-                    util.logger("%s: *Unequal* comparand: %s", MYNAME, path_comparand)
+                    util.logger("%s: *Unequal* to comparand: %s", MYNAME, path_comparand)
                     arg_acc_stats.counter_f_diff += 1
             else:
-                util.logger("%s: *Not found* comparand: %s", MYNAME, path_comparand)
+                util.logger("%s: *Not found* in comparand: %s", MYNAME, path_comparand)
                 arg_acc_stats.counter_f_absent += 1
 
     return arg_acc_stats
