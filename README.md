@@ -40,4 +40,5 @@ If anything is inconsistent, then the output is more verbose.  For example, if d
 ```
 Feel free to contact richard.elkins@gmail.com for inquiries and issues, especially if you find any bugs. I'll respond as soon as I can.
 
-Richard Elkins Dallas, Texas, USA, 3rd Rock, Sol
+Richard Elkins 
+Dallas, Texas, USA, 3rd Rock, Sol
