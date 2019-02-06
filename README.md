@@ -2,8 +2,8 @@
 Compare 2 directory trees, specified on the command line.  Neither tree or its leaves are altered.  Inconsistencies are flagged in standard output.
 
 The comparison is done in 2 phases: 
-(1) The first argument is the baseline tree and the 2nd argument is the comparand tree.
-(2) Vice versa.
+- The first argument is the baseline tree and the 2nd argument is the comparand tree.
+- Vice versa.
 
 Sample invocation:
 
