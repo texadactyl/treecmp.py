@@ -40,10 +40,10 @@ nargs = len(sys.argv)
 if nargs != 3:
     util.oops("%s: Needs 2 arguments: Treetop-1 and Treetop-2", MYNAME)
 
-TT1 = sys.argv[1]
-TT2 = sys.argv[2]
+TT1 = sys.argv[1] # Tree Top #1
+TT2 = sys.argv[2] # Tree Top #2
 
-### Make sure the treetops exist and are accessible
+### Make sure the 2 treetops exist and both are accessible
 if not os.path.exists(TT1):
     util.oops("%s: Treetop 1 {%s} does not exist or is inaccessible",
               MYNAME, TT1)
