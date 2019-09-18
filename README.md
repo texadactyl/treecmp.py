@@ -1,4 +1,6 @@
-# treecmp
+Overview
+--------
+
 Compare 2 directory trees, specified on the command line.  Neither tree or its leaves are altered.  Inconsistencies are flagged in standard output.
 
 The comparison is done in 2 phases: 
@@ -9,7 +11,13 @@ Sample invocation:
 
      python3   treecmp_main.py   $HOME/baseline   /mnt/my_usb_disk/another_copy_of_baseline
 
-Yes, it will run with Python2 as well as Python3.
+Package Dependencies
+--------------------
+
+None
+
+Sample Run
+----------
 
 A perfect match will produce output like this:
 
