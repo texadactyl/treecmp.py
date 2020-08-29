@@ -46,7 +46,7 @@ If anything is inconsistent, then the output is more verbose.  For example, if d
 2019-01-16 17:39:15  reporter: No inconsistencies detected
 2019-01-16 17:39:15  treecmp_main: End
 ```
-Feel free to contact richard.elkins@gmail.com for inquiries and issues, especially if you find any bugs. I'll respond as soon as I can.
+Feel free to open an issue for inquiries and requests, especially if you find any bugs. I'll respond as soon as I can.
 
 Richard Elkins
 
